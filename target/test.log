@@ -1,0 +1,908 @@
+04 Mar 2019 14:58:18,023 INFO  SomeClass 8 isPar - a test info message
+04 Mar 2019 14:58:18,025 ERROR SomeClass 9 isPar - a test error message
+04 Mar 2019 15:03:41,231 INFO  SomeClass 8 isPar - a test info message
+04 Mar 2019 15:03:41,233 ERROR SomeClass 9 isPar - a test error message
+05 Mar 2019 13:29:45,327 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:30:21,951 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:30:56,894 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:31:39,222 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:32:30,992 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:35:13,750 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:39:22,650 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:40:52,682 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:41:18,330 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:42:09,438 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:42:51,425 TRACE DatabaseConnector 23 getConnection - Enter
+05 Mar 2019 13:43:06,943 TRACE DatabaseConnector 23 getConnection - Enter
+08 Mar 2019 15:45:04,672 TRACE DatabaseConnector 45 getConnection - Enter
+08 Mar 2019 15:45:04,674 TRACE DatabaseConnector 18 getNewConnection - Enter
+08 Mar 2019 15:45:04,675 INFO  DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+08 Mar 2019 15:45:04,676 INFO  DatabaseConnector 24 getNewConnection - user: root
+08 Mar 2019 15:45:04,676 INFO  DatabaseConnector 25 getNewConnection - pass:
+08 Mar 2019 15:45:04,685 INFO  DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+08 Mar 2019 15:45:04,838 ERROR DatabaseConnector 38 getNewConnection - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+08 Mar 2019 15:45:04,839 TRACE DatabaseConnector 54 getConnection - Exit
+08 Mar 2019 15:45:48,007 TRACE DatabaseConnector 45 getConnection - Enter
+08 Mar 2019 15:45:48,009 TRACE DatabaseConnector 18 getNewConnection - Enter
+08 Mar 2019 15:45:48,009 INFO  DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+08 Mar 2019 15:45:48,009 INFO  DatabaseConnector 24 getNewConnection - user: root
+08 Mar 2019 15:45:48,010 INFO  DatabaseConnector 25 getNewConnection - pass:
+08 Mar 2019 15:45:48,017 INFO  DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+08 Mar 2019 15:45:48,234 TRACE DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25fb8912)
+08 Mar 2019 15:47:08,831 TRACE DatabaseConnector 45 getConnection - Enter
+08 Mar 2019 15:47:08,833 TRACE DatabaseConnector 18 getNewConnection - Enter
+08 Mar 2019 15:47:08,834 INFO  DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+08 Mar 2019 15:47:08,835 INFO  DatabaseConnector 24 getNewConnection - user: root
+08 Mar 2019 15:47:08,835 INFO  DatabaseConnector 25 getNewConnection - pass:
+08 Mar 2019 15:47:08,848 INFO  DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+08 Mar 2019 15:47:09,085 TRACE DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@654d8173)
+08 Mar 2019 15:47:51,878 TRACE DatabaseConnector 45 getConnection - Enter
+08 Mar 2019 15:47:51,880 TRACE DatabaseConnector 18 getNewConnection - Enter
+08 Mar 2019 15:47:51,881 INFO  DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+08 Mar 2019 15:47:51,881 INFO  DatabaseConnector 24 getNewConnection - user: root
+08 Mar 2019 15:47:51,881 INFO  DatabaseConnector 25 getNewConnection - pass:
+08 Mar 2019 15:47:51,890 INFO  DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+08 Mar 2019 15:47:52,130 TRACE DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25fb8912)
+08 Mar 2019 15:48:55,055 TRACE DatabaseConnector 45 getConnection - Enter
+08 Mar 2019 15:48:55,057 TRACE DatabaseConnector 18 getNewConnection - Enter
+08 Mar 2019 15:48:55,057 INFO  DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+08 Mar 2019 15:48:55,057 INFO  DatabaseConnector 24 getNewConnection - user: root
+08 Mar 2019 15:48:55,058 INFO  DatabaseConnector 25 getNewConnection - pass:
+08 Mar 2019 15:48:55,065 INFO  DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+08 Mar 2019 15:48:55,295 TRACE DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25fb8912)
+08 Mar 2019 15:49:24,547 TRACE DatabaseConnector 45 getConnection - Enter
+08 Mar 2019 15:49:24,550 TRACE DatabaseConnector 18 getNewConnection - Enter
+08 Mar 2019 15:49:24,550 INFO  DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+08 Mar 2019 15:49:24,551 INFO  DatabaseConnector 24 getNewConnection - user: root
+08 Mar 2019 15:49:24,551 INFO  DatabaseConnector 25 getNewConnection - pass:
+08 Mar 2019 15:49:24,560 INFO  DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+08 Mar 2019 15:49:24,757 TRACE DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25fb8912)
+08 Mar 2019 15:49:27,700 TRACE DatabaseConnector 45 getConnection - Enter
+08 Mar 2019 15:49:27,702 TRACE DatabaseConnector 18 getNewConnection - Enter
+08 Mar 2019 15:49:27,702 INFO  DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+08 Mar 2019 15:49:27,702 INFO  DatabaseConnector 24 getNewConnection - user: root
+08 Mar 2019 15:49:27,702 INFO  DatabaseConnector 25 getNewConnection - pass:
+08 Mar 2019 15:49:27,710 INFO  DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+08 Mar 2019 15:49:27,925 TRACE DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@25fb8912)
+11 Mar 2019 10:01:06,832 INFO  com.triathlon.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 10:01:06,836 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 10:01:06,837 INFO  com.triathlon.repository.ParticipantRepository 21 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 10:01:06,839 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 10:01:06,840 TRACE com.triathlon.repository.UserRepository 63 save - Enter saving user User{Id=10, username='usertest', password='asdf', name='Ion'} 
+11 Mar 2019 10:01:06,841 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:06,841 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 10:01:06,841 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 10:01:06,842 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 10:01:06,842 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 10:01:06,853 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 10:01:07,122 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:01:07,148 TRACE com.triathlon.repository.UserRepository 75 save - Exit
+11 Mar 2019 10:01:07,148 TRACE com.triathlon.repository.UserRepository 63 save - Enter saving user User{Id=11, username='usertest2', password='asdf', name='IonIon'} 
+11 Mar 2019 10:01:07,149 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,149 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:01:07,153 TRACE com.triathlon.repository.UserRepository 75 save - Exit
+11 Mar 2019 10:01:07,153 TRACE com.triathlon.repository.UserRepository 63 save - Enter saving user User{Id=13, username='usertest3', password='asdf', name='IonIonIon'} 
+11 Mar 2019 10:01:07,153 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,153 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:01:07,157 TRACE com.triathlon.repository.UserRepository 75 save - Exit
+11 Mar 2019 10:01:07,157 TRACE com.triathlon.repository.ParticipantRepository 60 save - Enter saving participant Participant{id=20, name='Vasile'} 
+11 Mar 2019 10:01:07,158 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,158 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 10:01:07,158 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 10:01:07,158 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 10:01:07,158 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 10:01:07,158 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 10:01:07,162 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@53ce1329)
+11 Mar 2019 10:01:07,166 TRACE com.triathlon.repository.ParticipantRepository 70 save - Exit
+11 Mar 2019 10:01:07,166 TRACE com.triathlon.repository.ParticipantRepository 60 save - Enter saving participant Participant{id=21, name='Vasile Vasile'} 
+11 Mar 2019 10:01:07,166 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,167 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@53ce1329)
+11 Mar 2019 10:01:07,170 TRACE com.triathlon.repository.ParticipantRepository 70 save - Exit
+11 Mar 2019 10:01:07,170 TRACE com.triathlon.repository.ParticipantRepository 60 save - Enter saving participant Participant{id=22, name='Vasi'} 
+11 Mar 2019 10:01:07,171 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,171 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@53ce1329)
+11 Mar 2019 10:01:07,176 TRACE com.triathlon.repository.ParticipantRepository 70 save - Exit
+11 Mar 2019 10:01:07,177 TRACE com.triathlon.repository.ProbaRepository 62 save - Enter saving proba Proba{id=30, name='Alergat', arbitru=User{Id=10, username='usertest', password='asdf', name='Ion'}} 
+11 Mar 2019 10:01:07,177 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,178 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 10:01:07,178 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 10:01:07,178 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 10:01:07,178 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 10:01:07,178 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 10:01:07,182 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@729d991e)
+11 Mar 2019 10:01:07,185 TRACE com.triathlon.repository.ProbaRepository 73 save - Exit
+11 Mar 2019 10:01:07,185 TRACE com.triathlon.repository.ProbaRepository 62 save - Enter saving proba Proba{id=31, name='Inot', arbitru=User{Id=11, username='usertest2', password='asdf', name='IonIon'}} 
+11 Mar 2019 10:01:07,185 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,186 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@729d991e)
+11 Mar 2019 10:01:07,189 TRACE com.triathlon.repository.ProbaRepository 73 save - Exit
+11 Mar 2019 10:01:07,189 TRACE com.triathlon.repository.ProbaRepository 62 save - Enter saving proba Proba{id=32, name='Ciclism', arbitru=User{Id=13, username='usertest3', password='asdf', name='IonIonIon'}} 
+11 Mar 2019 10:01:07,189 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,189 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@729d991e)
+11 Mar 2019 10:01:07,193 TRACE com.triathlon.repository.ProbaRepository 73 save - Exit
+11 Mar 2019 10:01:07,194 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=40, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='usertest', password='asdf', name='Ion'}}, score=10} 
+11 Mar 2019 10:01:07,194 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,194 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 10:01:07,194 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 10:01:07,194 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 10:01:07,195 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 10:01:07,195 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 10:01:07,197 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dbb42b7)
+11 Mar 2019 10:01:07,209 ERROR com.triathlon.repository.ScoreRepository 74 save - java.sql.SQLSyntaxErrorException: Table 'mpp_ex.score' doesn't exist
+11 Mar 2019 10:01:07,209 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:01:07,209 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=41, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=31, name='Inot', arbitru=User{Id=11, username='usertest2', password='asdf', name='IonIon'}}, score=11} 
+11 Mar 2019 10:01:07,209 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,209 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dbb42b7)
+11 Mar 2019 10:01:07,210 ERROR com.triathlon.repository.ScoreRepository 74 save - java.sql.SQLSyntaxErrorException: Table 'mpp_ex.score' doesn't exist
+11 Mar 2019 10:01:07,211 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:01:07,211 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=42, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=32, name='Ciclism', arbitru=User{Id=13, username='usertest3', password='asdf', name='IonIonIon'}}, score=12} 
+11 Mar 2019 10:01:07,211 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,211 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dbb42b7)
+11 Mar 2019 10:01:07,212 ERROR com.triathlon.repository.ScoreRepository 74 save - java.sql.SQLSyntaxErrorException: Table 'mpp_ex.score' doesn't exist
+11 Mar 2019 10:01:07,212 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:01:07,212 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=43, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='usertest', password='asdf', name='Ion'}}, score=10} 
+11 Mar 2019 10:01:07,212 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,212 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dbb42b7)
+11 Mar 2019 10:01:07,213 ERROR com.triathlon.repository.ScoreRepository 74 save - java.sql.SQLSyntaxErrorException: Table 'mpp_ex.score' doesn't exist
+11 Mar 2019 10:01:07,213 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:01:07,213 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=44, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=31, name='Inot', arbitru=User{Id=11, username='usertest2', password='asdf', name='IonIon'}}, score=11} 
+11 Mar 2019 10:01:07,213 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,213 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dbb42b7)
+11 Mar 2019 10:01:07,214 ERROR com.triathlon.repository.ScoreRepository 74 save - java.sql.SQLSyntaxErrorException: Table 'mpp_ex.score' doesn't exist
+11 Mar 2019 10:01:07,214 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:01:07,214 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=45, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=32, name='Ciclism', arbitru=User{Id=13, username='usertest3', password='asdf', name='IonIonIon'}}, score=12} 
+11 Mar 2019 10:01:07,214 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,215 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dbb42b7)
+11 Mar 2019 10:01:07,215 ERROR com.triathlon.repository.ScoreRepository 74 save - java.sql.SQLSyntaxErrorException: Table 'mpp_ex.score' doesn't exist
+11 Mar 2019 10:01:07,215 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:01:07,215 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=46, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='usertest', password='asdf', name='Ion'}}, score=10} 
+11 Mar 2019 10:01:07,216 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,216 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dbb42b7)
+11 Mar 2019 10:01:07,216 ERROR com.triathlon.repository.ScoreRepository 74 save - java.sql.SQLSyntaxErrorException: Table 'mpp_ex.score' doesn't exist
+11 Mar 2019 10:01:07,216 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:01:07,217 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=47, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=31, name='Inot', arbitru=User{Id=11, username='usertest2', password='asdf', name='IonIon'}}, score=11} 
+11 Mar 2019 10:01:07,217 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,217 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dbb42b7)
+11 Mar 2019 10:01:07,217 ERROR com.triathlon.repository.ScoreRepository 74 save - java.sql.SQLSyntaxErrorException: Table 'mpp_ex.score' doesn't exist
+11 Mar 2019 10:01:07,218 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:01:07,218 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=48, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=32, name='Ciclism', arbitru=User{Id=13, username='usertest3', password='asdf', name='IonIonIon'}}, score=12} 
+11 Mar 2019 10:01:07,218 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:01:07,218 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4dbb42b7)
+11 Mar 2019 10:01:07,218 ERROR com.triathlon.repository.ScoreRepository 74 save - java.sql.SQLSyntaxErrorException: Table 'mpp_ex.score' doesn't exist
+11 Mar 2019 10:01:07,219 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:04:48,398 INFO  com.triathlon.repository.UserRepository 24 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 10:04:48,401 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 10:04:48,402 INFO  com.triathlon.repository.ParticipantRepository 21 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 10:04:48,404 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 10:04:48,406 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=40, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='usertest', password='asdf', name='Ion'}}, score=10} 
+11 Mar 2019 10:04:48,407 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:04:48,407 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 10:04:48,407 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 10:04:48,408 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 10:04:48,408 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 10:04:48,416 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 10:04:48,635 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:04:48,665 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:04:48,665 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=41, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=31, name='Inot', arbitru=User{Id=11, username='usertest2', password='asdf', name='IonIon'}}, score=11} 
+11 Mar 2019 10:04:48,665 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:04:48,666 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:04:48,669 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:04:48,669 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=42, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=32, name='Ciclism', arbitru=User{Id=13, username='usertest3', password='asdf', name='IonIonIon'}}, score=12} 
+11 Mar 2019 10:04:48,670 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:04:48,670 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:04:48,674 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:04:48,674 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=43, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='usertest', password='asdf', name='Ion'}}, score=10} 
+11 Mar 2019 10:04:48,674 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:04:48,674 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:04:48,678 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:04:48,678 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=44, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=31, name='Inot', arbitru=User{Id=11, username='usertest2', password='asdf', name='IonIon'}}, score=11} 
+11 Mar 2019 10:04:48,678 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:04:48,678 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:04:48,681 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:04:48,682 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=45, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=32, name='Ciclism', arbitru=User{Id=13, username='usertest3', password='asdf', name='IonIonIon'}}, score=12} 
+11 Mar 2019 10:04:48,682 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:04:48,682 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:04:48,686 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:04:48,686 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=46, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='usertest', password='asdf', name='Ion'}}, score=10} 
+11 Mar 2019 10:04:48,686 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:04:48,686 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:04:48,690 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:04:48,690 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=47, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=31, name='Inot', arbitru=User{Id=11, username='usertest2', password='asdf', name='IonIon'}}, score=11} 
+11 Mar 2019 10:04:48,690 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:04:48,691 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:04:48,694 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 10:04:48,695 TRACE com.triathlon.repository.ScoreRepository 65 save - Enter saving score Score{Id=48, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=32, name='Ciclism', arbitru=User{Id=13, username='usertest3', password='asdf', name='IonIonIon'}}, score=12} 
+11 Mar 2019 10:04:48,695 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 10:04:48,695 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 10:04:48,698 TRACE com.triathlon.repository.ScoreRepository 77 save - Exit
+11 Mar 2019 18:18:26,179 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 18:18:26,183 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 18:18:26,185 INFO  com.triathlon.repository.ParticipantRepository 21 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 18:18:26,187 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 18:18:26,189 TRACE com.triathlon.repository.UserRepository 96 update - Enter updating user with id 10 
+11 Mar 2019 18:18:26,189 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 18:18:26,189 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 18:18:26,190 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 18:18:26,190 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 18:18:26,190 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 18:18:26,199 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 18:18:26,409 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 18:18:26,435 TRACE com.triathlon.repository.UserRepository 109 update - Exit: Updated user with id 10
+11 Mar 2019 19:03:17,750 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:03:17,754 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:03:17,756 INFO  com.triathlon.repository.ParticipantRepository 21 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:03:17,758 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:03:17,761 TRACE com.triathlon.repository.UserRepository 141 findOneByUsername - Enter finding user with username newUsername1 
+11 Mar 2019 19:03:17,761 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:03:17,761 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:03:17,762 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:03:17,762 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:03:17,762 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:03:17,775 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:03:18,027 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 19:03:18,058 TRACE com.triathlon.repository.UserRepository 149 findOneByUsername - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Ion'})
+11 Mar 2019 19:03:18,059 TRACE com.triathlon.repository.UserRepository 96 update - Enter updating user with id 10 
+11 Mar 2019 19:03:18,059 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:03:18,059 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 19:03:18,066 TRACE com.triathlon.repository.UserRepository 108 update - Exit: Updated user with id 10
+11 Mar 2019 19:19:03,943 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:19:03,947 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:19:03,949 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:19:03,951 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:19:03,952 TRACE com.triathlon.repository.UserRepository 64 save - Enter saving user User{Id=15, username='ptPrezentare', password='asdf', name='Ion'} 
+11 Mar 2019 19:19:03,952 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:19:03,953 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:19:03,953 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:19:03,953 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:19:03,953 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:19:03,964 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:19:04,173 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 19:19:04,192 TRACE com.triathlon.repository.UserRepository 76 save - Exit
+11 Mar 2019 19:19:04,193 TRACE com.triathlon.repository.ParticipantRepository 118 getScoresFromProba - Enter finding scores for proba  Alergat 
+11 Mar 2019 19:19:04,194 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:19:04,194 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:19:04,194 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:19:04,194 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:19:04,195 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:19:04,195 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:19:04,199 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4803b726)
+11 Mar 2019 19:19:04,205 ERROR com.triathlon.repository.ParticipantRepository 133 getScoresFromProba - java.sql.SQLException: No value specified for parameter 1
+11 Mar 2019 19:19:04,206 TRACE com.triathlon.repository.ParticipantRepository 136 getScoresFromProba - Exit with([])
+11 Mar 2019 19:19:53,117 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:19:53,120 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:19:53,121 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:19:53,122 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:19:53,124 TRACE com.triathlon.repository.UserRepository 64 save - Enter saving user User{Id=15, username='ptPrezentare', password='asdf', name='Ion'} 
+11 Mar 2019 19:19:53,124 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:19:53,124 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:19:53,125 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:19:53,125 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:19:53,125 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:19:53,133 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:19:53,329 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 19:19:53,369 ERROR com.triathlon.repository.UserRepository 73 save - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '15' for key 'PRIMARY'
+11 Mar 2019 19:19:53,369 TRACE com.triathlon.repository.UserRepository 76 save - Exit
+11 Mar 2019 19:19:53,370 TRACE com.triathlon.repository.ParticipantRepository 118 getScoresFromProba - Enter finding scores for proba  Alergat 
+11 Mar 2019 19:19:53,370 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:19:53,370 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:19:53,371 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:19:53,371 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:19:53,371 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:19:53,371 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:19:53,375 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@61001b64)
+11 Mar 2019 19:19:53,382 TRACE com.triathlon.repository.ParticipantRepository 131 getScoresFromProba - Exit with([Participant{id=21, name='Vasile Vasile'}, Participant{id=20, name='Vasile'}, Participant{id=22, name='Vasi'}])
+11 Mar 2019 19:24:09,663 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,667 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,669 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,671 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,672 TRACE com.triathlon.repository.UserRepository 64 save - Enter saving user User{Id=15, username='ptPrezentare', password='asdf', name='Ion'} 
+11 Mar 2019 19:24:09,673 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,673 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,673 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,673 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,674 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,684 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,908 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7c24b813)
+11 Mar 2019 19:24:09,935 ERROR com.triathlon.repository.UserRepository 73 save - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '15' for key 'PRIMARY'
+11 Mar 2019 19:24:09,935 TRACE com.triathlon.repository.UserRepository 76 save - Exit
+11 Mar 2019 19:24:09,936 TRACE com.triathlon.repository.ScoreRepository 125 getScoresFromProba - Enter finding scores for proba  Alergat 
+11 Mar 2019 19:24:09,936 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,936 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,936 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,937 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,937 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,937 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,941 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@61001b64)
+11 Mar 2019 19:24:09,949 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,949 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 20 
+11 Mar 2019 19:24:09,949 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,949 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,950 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,950 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,950 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,950 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,953 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@121314f7)
+11 Mar 2019 19:24:09,954 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=20, name='Vasile'})
+11 Mar 2019 19:24:09,955 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,955 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:24:09,955 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,955 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,955 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,955 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,956 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,956 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,959 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@576d5deb)
+11 Mar 2019 19:24:09,960 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,960 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:24:09,960 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,960 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,961 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,961 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,961 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,961 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,964 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2e3967ea)
+11 Mar 2019 19:24:09,966 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:24:09,966 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:24:09,966 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,967 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 22 
+11 Mar 2019 19:24:09,967 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,967 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,967 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,967 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,968 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,968 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,971 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6fdbe764)
+11 Mar 2019 19:24:09,972 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=22, name='Vasi'})
+11 Mar 2019 19:24:09,972 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,973 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:24:09,973 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,973 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,973 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,974 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,974 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,974 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,977 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6221a451)
+11 Mar 2019 19:24:09,978 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,979 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:24:09,979 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,979 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,979 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,979 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,980 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,980 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,984 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@4a883b15)
+11 Mar 2019 19:24:09,985 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:24:09,985 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:24:09,985 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,986 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 21 
+11 Mar 2019 19:24:09,986 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,986 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,986 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,986 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,987 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,987 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,990 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@537f60bf)
+11 Mar 2019 19:24:09,991 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=21, name='Vasile Vasile'})
+11 Mar 2019 19:24:09,991 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,992 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:24:09,992 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,992 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,992 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,992 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,993 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,993 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,995 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@65c7a252)
+11 Mar 2019 19:24:09,996 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:09,996 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:24:09,996 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:09,996 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:09,996 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:09,997 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:09,997 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:09,997 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:09,999 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@229c6181)
+11 Mar 2019 19:24:10,000 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:24:10,000 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:24:10,001 TRACE com.triathlon.repository.ScoreRepository 138 getScoresFromProba - Exit with([Score{Id=20, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}, Score{Id=22, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}, Score{Id=21, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}])
+11 Mar 2019 19:24:58,271 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:58,274 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:58,276 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:58,277 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:24:58,279 TRACE com.triathlon.repository.UserRepository 64 save - Enter saving user User{Id=15, username='ptPrezentare', password='asdf', name='Ion'} 
+11 Mar 2019 19:24:58,279 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:24:58,280 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:24:58,280 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:24:58,280 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:24:58,280 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:24:58,290 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:24:58,490 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14f5da2c)
+11 Mar 2019 19:24:58,523 ERROR com.triathlon.repository.UserRepository 73 save - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '15' for key 'PRIMARY'
+11 Mar 2019 19:24:58,524 TRACE com.triathlon.repository.UserRepository 76 save - Exit
+11 Mar 2019 19:25:07,989 TRACE com.triathlon.repository.ScoreRepository 125 getScoresFromProba - Enter finding scores for proba  Alergat 
+11 Mar 2019 19:25:07,989 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:07,990 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:07,991 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:07,991 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:07,992 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:07,992 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:07,996 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2dbf4cbd)
+11 Mar 2019 19:25:08,011 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:08,012 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 21 
+11 Mar 2019 19:25:08,012 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:08,012 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:08,013 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:08,013 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:08,013 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:08,013 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:08,018 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7adf16aa)
+11 Mar 2019 19:25:08,019 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=21, name='Vasile Vasile'})
+11 Mar 2019 19:25:08,019 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:08,020 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:25:08,020 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:08,020 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:08,020 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:08,020 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:08,020 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:08,021 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:08,024 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@71ae31b0)
+11 Mar 2019 19:25:08,026 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:08,026 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:25:08,026 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:08,026 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:08,027 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:08,027 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:08,027 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:08,027 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:12,113 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:12,117 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:12,119 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:12,121 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:12,124 TRACE com.triathlon.repository.UserRepository 64 save - Enter saving user User{Id=15, username='ptPrezentare', password='asdf', name='Ion'} 
+11 Mar 2019 19:25:12,125 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:12,125 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:12,125 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:12,125 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:12,126 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:12,143 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:12,360 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14f5da2c)
+11 Mar 2019 19:25:12,399 ERROR com.triathlon.repository.UserRepository 73 save - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '15' for key 'PRIMARY'
+11 Mar 2019 19:25:12,399 TRACE com.triathlon.repository.UserRepository 76 save - Exit
+11 Mar 2019 19:25:14,348 TRACE com.triathlon.repository.ScoreRepository 125 getScoresFromProba - Enter finding scores for proba  Alergat 
+11 Mar 2019 19:25:14,350 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:14,351 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:14,353 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:14,355 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:14,356 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:14,358 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:14,385 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2dbf4cbd)
+11 Mar 2019 19:25:14,459 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:14,461 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 21 
+11 Mar 2019 19:25:14,461 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:14,461 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:14,462 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:14,463 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:14,463 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:14,464 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:14,476 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7adf16aa)
+11 Mar 2019 19:25:14,480 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=21, name='Vasile Vasile'})
+11 Mar 2019 19:25:14,481 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:14,482 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:25:14,482 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:14,483 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:14,483 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:14,484 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:14,484 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:14,485 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:14,497 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@71ae31b0)
+11 Mar 2019 19:25:14,500 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:14,501 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:25:14,501 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:14,502 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:14,502 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:14,503 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:14,504 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:14,504 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:14,516 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f0ca692)
+11 Mar 2019 19:25:14,519 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:25:14,520 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:25:14,521 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:14,523 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 20 
+11 Mar 2019 19:25:14,523 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:14,524 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:14,524 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:14,525 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:14,525 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:14,526 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:14,539 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@44e3760b)
+11 Mar 2019 19:25:14,542 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=20, name='Vasile'})
+11 Mar 2019 19:25:14,543 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:14,544 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:25:14,544 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:14,545 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:14,545 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:14,546 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:14,546 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:14,547 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:14,561 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1d7f7be7)
+11 Mar 2019 19:25:14,564 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:14,566 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:25:14,566 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:14,567 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:14,567 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:14,568 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:14,568 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:14,569 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:14,584 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@24bdb479)
+11 Mar 2019 19:25:14,587 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:25:14,588 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:25:14,589 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:14,590 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 22 
+11 Mar 2019 19:25:14,591 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:14,591 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:14,592 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:14,593 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:14,593 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:14,594 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:14,605 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@65aa6596)
+11 Mar 2019 19:25:14,608 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=22, name='Vasi'})
+11 Mar 2019 19:25:14,609 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:14,610 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:25:14,610 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:14,611 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:14,611 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:14,612 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:14,613 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:14,613 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:14,625 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@533377b)
+11 Mar 2019 19:25:14,628 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:14,629 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:25:14,629 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:14,630 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:14,630 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:14,631 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:14,632 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:14,632 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:14,644 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@10fde30a)
+11 Mar 2019 19:25:14,647 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:25:14,648 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:25:14,649 TRACE com.triathlon.repository.ScoreRepository 138 getScoresFromProba - Exit with([Score{Id=21, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}, Score{Id=20, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}, Score{Id=22, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}])
+11 Mar 2019 19:25:30,110 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:30,115 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:30,117 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:30,119 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:30,122 TRACE com.triathlon.repository.UserRepository 64 save - Enter saving user User{Id=15, username='ptPrezentare', password='asdf', name='Ion'} 
+11 Mar 2019 19:25:30,122 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:30,123 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:30,123 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:30,123 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:30,123 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:30,137 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:30,337 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@239b0f9d)
+11 Mar 2019 19:25:30,370 ERROR com.triathlon.repository.UserRepository 73 save - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '15' for key 'PRIMARY'
+11 Mar 2019 19:25:30,370 TRACE com.triathlon.repository.UserRepository 76 save - Exit
+11 Mar 2019 19:25:34,027 TRACE com.triathlon.repository.ScoreRepository 125 getScoresFromProba - Enter finding scores for proba  Alergat 
+11 Mar 2019 19:25:34,030 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:34,031 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:34,033 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:34,035 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:34,036 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:34,037 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:34,055 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7fc44dec)
+11 Mar 2019 19:25:34,129 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:34,130 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 21 
+11 Mar 2019 19:25:34,130 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:34,131 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:34,131 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:34,132 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:34,133 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:34,133 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:34,145 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@58bf8650)
+11 Mar 2019 19:25:34,149 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=21, name='Vasile Vasile'})
+11 Mar 2019 19:25:34,150 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:34,151 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:25:34,151 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:34,152 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:34,152 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:34,153 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:34,154 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:34,154 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:34,166 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f0ca692)
+11 Mar 2019 19:25:34,169 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:34,170 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:25:34,171 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:34,171 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:34,172 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:34,172 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:34,173 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:34,174 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:34,185 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2cb3d0f7)
+11 Mar 2019 19:25:34,188 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:25:34,189 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:25:34,191 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:34,192 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 20 
+11 Mar 2019 19:25:34,193 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:34,193 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:34,194 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:34,194 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:34,195 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:34,195 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:34,207 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5860f3d7)
+11 Mar 2019 19:25:34,210 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=20, name='Vasile'})
+11 Mar 2019 19:25:34,211 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:34,212 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:25:34,212 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:34,213 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:34,213 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:34,214 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:34,215 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:34,215 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:34,227 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1ddae9b5)
+11 Mar 2019 19:25:34,230 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:34,231 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:25:34,232 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:34,232 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:34,233 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:34,233 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:34,234 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:34,235 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:34,258 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@34625ccd)
+11 Mar 2019 19:25:34,262 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:25:34,264 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:25:34,265 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:34,266 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 22 
+11 Mar 2019 19:25:34,267 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:34,267 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:34,268 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:34,268 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:34,269 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:34,269 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:34,281 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@419a20a6)
+11 Mar 2019 19:25:34,283 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=22, name='Vasi'})
+11 Mar 2019 19:25:34,284 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:34,286 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:25:34,286 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:34,287 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:34,287 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:34,288 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:34,288 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:34,289 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:34,300 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@10fde30a)
+11 Mar 2019 19:25:34,303 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:34,304 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:25:34,305 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:34,305 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:34,306 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:34,307 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:34,307 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:34,308 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:34,319 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1ce61929)
+11 Mar 2019 19:25:34,322 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:25:34,323 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:25:34,325 TRACE com.triathlon.repository.ScoreRepository 138 getScoresFromProba - Exit with([Score{Id=21, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}, Score{Id=20, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}, Score{Id=22, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}])
+11 Mar 2019 19:25:47,508 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:47,512 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:47,515 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:47,517 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:47,519 TRACE com.triathlon.repository.UserRepository 64 save - Enter saving user User{Id=15, username='ptPrezentare', password='asdf', name='Ion'} 
+11 Mar 2019 19:25:47,519 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:47,519 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:47,520 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:47,520 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:47,520 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:47,535 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:47,755 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@14f5da2c)
+11 Mar 2019 19:25:47,800 ERROR com.triathlon.repository.UserRepository 73 save - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '15' for key 'PRIMARY'
+11 Mar 2019 19:25:47,800 TRACE com.triathlon.repository.UserRepository 76 save - Exit
+11 Mar 2019 19:25:48,742 TRACE com.triathlon.repository.ScoreRepository 125 getScoresFromProba - Enter finding scores for proba  Alergat 
+11 Mar 2019 19:25:48,743 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:48,744 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:48,744 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:48,746 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:48,746 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:48,747 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:48,759 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2dbf4cbd)
+11 Mar 2019 19:25:48,832 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:48,834 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 21 
+11 Mar 2019 19:25:48,834 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:48,835 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:48,835 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:48,836 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:48,836 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:48,837 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:48,849 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@7adf16aa)
+11 Mar 2019 19:25:48,853 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=21, name='Vasile Vasile'})
+11 Mar 2019 19:25:48,854 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:48,855 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:25:48,856 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:48,856 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:48,857 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:48,858 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:48,858 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:48,859 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:48,871 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@71ae31b0)
+11 Mar 2019 19:25:48,874 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:48,875 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:25:48,875 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:48,876 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:48,876 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:48,877 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:48,877 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:48,878 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:48,890 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6f0ca692)
+11 Mar 2019 19:25:48,893 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:25:48,894 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:25:48,895 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:48,896 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 20 
+11 Mar 2019 19:25:48,897 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:48,897 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:48,898 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:48,899 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:48,899 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:48,900 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:48,911 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@44e3760b)
+11 Mar 2019 19:25:48,914 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=20, name='Vasile'})
+11 Mar 2019 19:25:48,915 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:48,916 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:25:48,917 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:48,917 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:48,918 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:48,918 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:48,919 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:48,919 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:48,931 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1d7f7be7)
+11 Mar 2019 19:25:48,934 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:48,935 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:25:48,936 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:48,936 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:48,937 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:48,937 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:48,938 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:48,938 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:48,954 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@24bdb479)
+11 Mar 2019 19:25:48,957 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:25:48,958 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:25:48,959 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:48,961 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 22 
+11 Mar 2019 19:25:48,961 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:48,962 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:48,962 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:48,963 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:48,963 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:48,964 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:48,976 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@65aa6596)
+11 Mar 2019 19:25:48,978 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=22, name='Vasi'})
+11 Mar 2019 19:25:48,979 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:48,980 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:25:48,981 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:48,981 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:48,982 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:48,983 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:48,983 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:48,984 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:48,995 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@533377b)
+11 Mar 2019 19:25:48,998 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:25:49,000 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:25:49,000 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:25:49,001 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:25:49,001 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:25:49,002 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:25:49,002 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:25:49,003 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:25:49,015 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@10fde30a)
+11 Mar 2019 19:25:49,018 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:25:49,019 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:25:49,020 TRACE com.triathlon.repository.ScoreRepository 138 getScoresFromProba - Exit with([Score{Id=21, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}, Score{Id=20, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}, Score{Id=22, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}])
+11 Mar 2019 19:26:55,738 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:55,741 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:55,743 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:55,745 INFO  com.triathlon.repository.ScoreRepository 25 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:55,747 TRACE com.triathlon.repository.UserRepository 64 save - Enter saving user User{Id=15, username='ptPrezentare', password='asdf', name='Ion'} 
+11 Mar 2019 19:26:55,748 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:55,748 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:55,748 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:55,749 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:55,749 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:55,760 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:56,016 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@636e8cc)
+11 Mar 2019 19:26:56,062 ERROR com.triathlon.repository.UserRepository 73 save - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '15' for key 'PRIMARY'
+11 Mar 2019 19:26:56,063 TRACE com.triathlon.repository.UserRepository 76 save - Exit
+11 Mar 2019 19:26:57,303 TRACE com.triathlon.repository.ScoreRepository 125 getScoresFromProba - Enter finding scores for proba  Alergat 
+11 Mar 2019 19:26:57,305 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:57,306 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:57,308 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:57,310 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:57,311 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:57,313 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:57,335 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@5b408dc3)
+11 Mar 2019 19:26:57,409 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:57,410 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 20 
+11 Mar 2019 19:26:57,410 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:57,411 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:57,411 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:57,412 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:57,413 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:57,413 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:57,425 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6731787b)
+11 Mar 2019 19:26:57,429 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=20, name='Vasile'})
+11 Mar 2019 19:26:57,430 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:57,431 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:26:57,432 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:57,432 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:57,433 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:57,433 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:57,434 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:57,434 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:57,446 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@58bf8650)
+11 Mar 2019 19:26:57,449 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:57,450 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:26:57,451 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:57,451 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:57,452 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:57,452 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:57,453 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:57,454 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:57,465 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@71ae31b0)
+11 Mar 2019 19:26:57,468 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:26:57,469 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:26:57,471 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:57,472 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 22 
+11 Mar 2019 19:26:57,472 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:57,473 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:57,473 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:57,474 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:57,475 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:57,475 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:57,487 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@2cb3d0f7)
+11 Mar 2019 19:26:57,490 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=22, name='Vasi'})
+11 Mar 2019 19:26:57,491 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:57,492 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:26:57,493 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:57,493 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:57,494 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:57,494 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:57,495 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:57,495 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:57,507 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@6a66a204)
+11 Mar 2019 19:26:57,510 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:57,512 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:26:57,512 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:57,512 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:57,513 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:57,514 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:57,514 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:57,515 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:57,530 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@1ddae9b5)
+11 Mar 2019 19:26:57,533 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:26:57,534 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:26:57,535 INFO  com.triathlon.repository.ParticipantRepository 22 <init> - Initializing ParticipantRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:57,537 TRACE com.triathlon.repository.ParticipantRepository 95 findOne - Enter finding participant with id 21 
+11 Mar 2019 19:26:57,537 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:57,538 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:57,538 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:57,539 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:57,539 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:57,540 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:57,552 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@34625ccd)
+11 Mar 2019 19:26:57,554 TRACE com.triathlon.repository.ParticipantRepository 103 findOne - Exit with(Participant{id=21, name='Vasile Vasile'})
+11 Mar 2019 19:26:57,555 INFO  com.triathlon.repository.ProbaRepository 22 <init> - Initializing ProbaRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:57,557 TRACE com.triathlon.repository.ProbaRepository 97 findOne - Enter finding proba with id 30 
+11 Mar 2019 19:26:57,557 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:57,557 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:57,558 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:57,559 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:57,559 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:57,560 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:57,572 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@67389cb8)
+11 Mar 2019 19:26:57,575 INFO  com.triathlon.repository.UserRepository 25 <init> - Initializing UserRepository with properties: {tasks.jdbc.user=root, tasks.jdbc.pass=, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp_ex, tasks.jdbc.driver=com.mysql.cj.jdbc.Driver} 
+11 Mar 2019 19:26:57,576 TRACE com.triathlon.repository.UserRepository 119 findOne - Enter finding user with id 10 
+11 Mar 2019 19:26:57,577 TRACE com.triathlon.repository.DatabaseConnector 45 getConnection - Enter
+11 Mar 2019 19:26:57,577 TRACE com.triathlon.repository.DatabaseConnector 18 getNewConnection - Enter
+11 Mar 2019 19:26:57,578 INFO  com.triathlon.repository.DatabaseConnector 23 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp_ex
+11 Mar 2019 19:26:57,578 INFO  com.triathlon.repository.DatabaseConnector 24 getNewConnection - user: root
+11 Mar 2019 19:26:57,579 INFO  com.triathlon.repository.DatabaseConnector 25 getNewConnection - pass: 
+11 Mar 2019 19:26:57,579 INFO  com.triathlon.repository.DatabaseConnector 29 getNewConnection - Loaded driver ...com.mysql.cj.jdbc.Driver
+11 Mar 2019 19:26:57,591 TRACE com.triathlon.repository.DatabaseConnector 54 getConnection - Exit with(com.mysql.cj.jdbc.ConnectionImpl@533377b)
+11 Mar 2019 19:26:57,594 TRACE com.triathlon.repository.UserRepository 127 findOne - Exit with(User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'})
+11 Mar 2019 19:26:57,595 TRACE com.triathlon.repository.ProbaRepository 105 findOne - Exit with(Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}})
+11 Mar 2019 19:26:57,597 TRACE com.triathlon.repository.ScoreRepository 138 getScoresFromProba - Exit with([Score{Id=20, participant=Participant{id=20, name='Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=29}, Score{Id=22, participant=Participant{id=22, name='Vasi'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=12}, Score{Id=21, participant=Participant{id=21, name='Vasile Vasile'}, proba=Proba{id=30, name='Alergat', arbitru=User{Id=10, username='newUsername1', password='asdf', name='Donald Clinton'}}, score=10}])

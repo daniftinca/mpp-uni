@@ -85,7 +85,7 @@ public class ParticipantRepository implements IRepository<Long, Participant> {
 
     @Override
     public void update(Long id, Participant entity) {
-        //todo: nu trebe
+
     }
 
     @Override

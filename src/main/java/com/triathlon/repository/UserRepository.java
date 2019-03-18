@@ -63,8 +63,8 @@ public class UserRepository implements IRepository<Long, User> {
         Connection con = dbUtils.getConnection();
         try (PreparedStatement preStmt = con.prepareStatement("insert into users values (?,?,?,?)")) {
             preStmt.setLong(1, entity.getID());
-            preStmt.setString(2, entity.getPassword());
-            preStmt.setString(3, entity.getUsername());
+            preStmt.setString(2, entity.getUsername());
+            preStmt.setString(3, entity.getPassword());
             preStmt.setString(4, entity.getName());
             int result = preStmt.executeUpdate();
         } catch (SQLException ex) {

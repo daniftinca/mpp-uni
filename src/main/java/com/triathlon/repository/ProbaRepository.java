@@ -89,7 +89,7 @@ public class ProbaRepository implements IRepository<Long, Proba> {
 
     @Override
     public void update(Long id, Proba entity) {
-        //todo: nu trebe
+
     }
 
     @Override
@@ -137,6 +137,29 @@ public class ProbaRepository implements IRepository<Long, Proba> {
         Connection con = dbUtils.getConnection();
         List<Proba> probe = new ArrayList<>();
         try (PreparedStatement preStmt = con.prepareStatement("select * from proba")) {
+            try (ResultSet result = preStmt.executeQuery()) {
+                while (result.next()) {
+                    Proba probaFromResult = getProbaFromResult(result);
+                    probe.add(probaFromResult);
+                }
+                logger.traceExit(probe);
+                return probe;
+            }
+        } catch (SQLException e) {
+            logger.error(e);
+            System.out.println("Error DB " + e);
+        }
+        logger.traceExit(probe);
+        return probe;
+    }
+
+
+    public Iterable<Proba> findAllForUsername(String username) {
+        logger.traceEntry();
+        Connection con = dbUtils.getConnection();
+        List<Proba> probe = new ArrayList<>();
+        try (PreparedStatement preStmt = con.prepareStatement("select * from proba inner join users u on proba.IDArbitru = u.ID where u.username=?")) {
+            preStmt.setString(1, username);
             try (ResultSet result = preStmt.executeQuery()) {
                 while (result.next()) {
                     Proba probaFromResult = getProbaFromResult(result);

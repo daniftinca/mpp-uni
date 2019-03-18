@@ -9,6 +9,7 @@ import com.triathlon.repository.UserRepository;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
@@ -30,10 +31,14 @@ public class TestDB {
 
             ScoreRepository scoreRepository = new ScoreRepository(dbProps);
 
-            User user1 = new User(15L, "ptPrezentare", "asdf", "Ion");
-            User user2 = new User(11L, "usertest2", "asdf", "IonIon");
-            User user3 = new User(13L, "usertest3", "asdf", "IonIonIon");
-            userRepository.save(user1);
+            Iterable<User> arbitrii = userRepository.findAll();
+            List<User> arbitriiList = new ArrayList<>();
+
+            arbitrii.forEach(arbitriiList::add);
+            User user1 = arbitriiList.get(0);
+            User user2 = arbitriiList.get(1);
+            User user3 = arbitriiList.get(2);
+//            userRepository.save(user1);
 //            userRepository.save(user2);
 //            userRepository.save(user3);
 //
@@ -41,17 +46,17 @@ public class TestDB {
             Participant participant2 = new Participant(21L, "Vasile Vasile");
             Participant participant3 = new Participant(22L, "Vasi");
 //
-//            participantRepository.save(participant1);
-//            participantRepository.save(participant2);
-//            participantRepository.save(participant3);
+            participantRepository.save(participant1);
+            participantRepository.save(participant2);
+            participantRepository.save(participant3);
 //
             Proba proba1 = new Proba(30L, "Alergat", user1);
-            Proba proba2 = new Proba(31L, "Inot", user2);
-            Proba proba3 = new Proba(32L, "Ciclism", user3);
+            Proba proba2 = new Proba(31L, "Inot", user1);
+            Proba proba3 = new Proba(32L, "Ciclism", user2);
 //
-//            probaRepository.save(proba1);
-//            probaRepository.save(proba2);
-//            probaRepository.save(proba3);
+            probaRepository.save(proba1);
+            probaRepository.save(proba2);
+            probaRepository.save(proba3);
 
             Score score1 = new Score(40L, participant1, proba1, 10);
             Score score2 = new Score(41L, participant1, proba2, 11);
@@ -65,15 +70,15 @@ public class TestDB {
             Score score8 = new Score(47L, participant3, proba2, 11);
             Score score9 = new Score(48L, participant3, proba3, 12);
 
-//            scoreRepository.save(score1);
-//            scoreRepository.save(score2);
-//            scoreRepository.save(score3);
-//            scoreRepository.save(score4);
-//            scoreRepository.save(score5);
-//            scoreRepository.save(score6);
-//            scoreRepository.save(score7);
-//            scoreRepository.save(score8);
-//            scoreRepository.save(score9);
+            scoreRepository.save(score1);
+            scoreRepository.save(score2);
+            scoreRepository.save(score3);
+            scoreRepository.save(score4);
+            scoreRepository.save(score5);
+            scoreRepository.save(score6);
+            scoreRepository.save(score7);
+            scoreRepository.save(score8);
+            scoreRepository.save(score9);
 
 
 //            user2.setUsername("newUsername1");
@@ -87,8 +92,8 @@ public class TestDB {
 //
 //            userRepository.delete(13L);
 
-            List<Score> scoresFromProba = scoreRepository.getScoresFromProba(proba1);
-            System.out.println("Something");
+            // List<Score> scoresFromProba = scoreRepository.getScoresFromProba(proba1);
+            //System.out.println("Something");
 
         } catch (IOException e) {
             e.printStackTrace();

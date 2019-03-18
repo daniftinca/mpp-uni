@@ -92,7 +92,7 @@ public class ScoreRepository implements IRepository<Long, Score> {
 
     @Override
     public void update(Long id, Score entity) {
-        //todo: nu trebe
+
     }
 
     @Override
@@ -119,7 +119,7 @@ public class ScoreRepository implements IRepository<Long, Score> {
     }
 
 
-    public List<Score> getScoresFromProba(Proba proba) {
+    public Iterable<Score> getScoresFromProba(Proba proba) {
         logger.traceEntry("finding scores for proba  {} ", proba.getName());
         Connection con = dbUtils.getConnection();
 
@@ -128,14 +128,7 @@ public class ScoreRepository implements IRepository<Long, Score> {
         try (PreparedStatement preStmt = con.prepareStatement("select * from participants Inner join scores s on participants.ID = s.IDParticipant inner join proba p on s.IDProba = p.ID where p.ID = ? order by s.score desc")) {
             preStmt.setLong(1, proba.getId());
 
-            try (ResultSet result = preStmt.executeQuery()) {
-                while (result.next()) {
-                    Score score = getScoreFromResult(result);
-                    scores.add(score);
-                }
-                logger.traceExit(scores);
-                return scores;
-            }
+            return executeScoreSelect(scores, preStmt);
         } catch (SQLException e) {
             logger.error(e);
             System.out.println("Error DB " + e);
@@ -176,19 +169,24 @@ public class ScoreRepository implements IRepository<Long, Score> {
         Connection con = dbUtils.getConnection();
         List<Score> scores = new ArrayList<>();
         try (PreparedStatement preStmt = con.prepareStatement("select * from scores")) {
-            try (ResultSet result = preStmt.executeQuery()) {
-                while (result.next()) {
-                    Score scoreFromResult = getScoreFromResult(result);
-                    scores.add(scoreFromResult);
-                }
-                logger.traceExit(scores);
-                return scores;
-            }
+            return executeScoreSelect(scores, preStmt);
         } catch (SQLException e) {
             logger.error(e);
             System.out.println("Error DB " + e);
         }
         logger.traceExit(scores);
         return scores;
+    }
+
+
+    private Iterable<Score> executeScoreSelect(List<Score> scores, PreparedStatement preStmt) throws SQLException {
+        try (ResultSet result = preStmt.executeQuery()) {
+            while (result.next()) {
+                Score scoreFromResult = getScoreFromResult(result);
+                scores.add(scoreFromResult);
+            }
+            logger.traceExit(scores);
+            return scores;
+        }
     }
 }

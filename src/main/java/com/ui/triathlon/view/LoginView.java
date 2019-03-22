@@ -1,7 +1,7 @@
 package com.ui.triathlon.view;
 
 import com.triathlon.controller.AuthenticationController;
-import com.triathlon.controller.ScoreController;
+import com.triathlon.controller.GeneralController;
 import com.triathlon.controller.UserSession;
 import com.triathlon.repository.ParticipantRepository;
 import com.triathlon.repository.ProbaRepository;
@@ -21,6 +21,8 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -32,6 +34,7 @@ public class LoginView {
 
     AuthenticationController controller;
 
+    private static final Logger logger = LogManager.getLogger();
 
     public LoginView(AuthenticationController controller) {
         this.controller = controller;
@@ -48,7 +51,7 @@ public class LoginView {
     }
 
     public GridPane userLogin() {
-        GridPane grid = Utils.initWindow();
+        GridPane grid = Utils.initWindow("Login");
 
         Label usrLabel = new Label("Username:");
         grid.add(usrLabel, 0, 2);
@@ -86,7 +89,7 @@ public class LoginView {
                 dbProps.load(new FileReader("bd.config"));
             } catch (IOException e) {
                 e.printStackTrace();
-                //TODO : add message
+                logger.error("Failed to load dataabse");
             }
 
             ScoreRepository scoreRepository = new ScoreRepository(dbProps);
@@ -95,9 +98,9 @@ public class LoginView {
             ProbaService probaService = new ProbaService(probaRepository);
             ParticipantRepository participantRepository = new ParticipantRepository(dbProps);
             ParticipantService participantService = new ParticipantService(participantRepository);
-            ScoreController scoreController = new ScoreController(scorService, probaService, participantService);
+            GeneralController generalController = new GeneralController(scorService, probaService, participantService);
 
-            Pane root = new ScoreView(UserSession.getInstace(username), scoreController).getView();
+            Pane root = new GeneralView(UserSession.getInstace(username), generalController).getView();
             Stage stage = new Stage();
             stage.setTitle("Scoruri");
             stage.setScene(new Scene(root, 850, 450));

@@ -1,6 +1,6 @@
 package com.ui.triathlon.view;
 
-import com.triathlon.controller.ScoreController;
+import com.triathlon.controller.GeneralController;
 import com.triathlon.controller.UserSession;
 import com.triathlon.domain.Participant;
 import com.triathlon.domain.Proba;
@@ -8,6 +8,7 @@ import com.triathlon.domain.Score;
 import com.triathlon.repository.RepositoryException;
 import com.ui.triathlon.ui_utils.Utils;
 import javafx.beans.property.SimpleStringProperty;
+import javafx.collections.ObservableList;
 import javafx.geometry.Pos;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -15,22 +16,26 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
+import javafx.util.StringConverter;
 
-public class ScoreView {
+public class GeneralView {
 
     BorderPane pane;
     TextField idBox, participantName, probaName, scoreValue,
             participantIDText, probaIdtext, probaSelectName;
 
+    ChoiceBox<Proba> probaCb, userProbacb;
+    ChoiceBox<Participant> participantCb;
+
     Boolean canEdit = true;
     Participant selectedParticipant;
     Proba selectedProba;
-    ScoreController controller;
+    GeneralController controller;
 
 
     private TableView<Score> table = new TableView<>();
 
-    public ScoreView(UserSession session, ScoreController controller) {
+    public GeneralView(UserSession session, GeneralController controller) {
         this.controller = controller;
         initView();
     }
@@ -54,16 +59,54 @@ public class ScoreView {
     }
 
     private GridPane controlButtons() {
-        GridPane grid = Utils.initWindow();
+        GridPane grid = Utils.initWindow("");
 
         Button yourScores = new Button("Vezi scorurile tale");
 
         grid.add(yourScores, 0, 0);
 
-        Label probaNameLabel = new Label("ID Proba: ");
-        grid.add(probaNameLabel, 0, 1);
-        probaSelectName = new TextField();
-        grid.add(probaSelectName, 0, 2);
+//        Label probaNameLabel = new Label("ID Proba: ");
+//        grid.add(probaNameLabel, 0, 1);
+//        probaSelectName = new TextField();
+//        grid.add(probaSelectName, 0, 2);
+
+        Label algor = new Label("Proba:");
+        grid.add(algor, 0, 1);
+
+
+        ObservableList<Proba> probeModel = controller.getProbeModel();
+
+
+        probaCb = new ChoiceBox<>();
+        probaCb.setItems(probeModel);
+        probaCb.setConverter(new StringConverter<Proba>() {
+
+            @Override
+            public String toString(Proba object) {
+                return object.getName();
+            }
+
+            @Override
+            public Proba fromString(String string) {
+                return probaCb.getItems().stream().filter(ap ->
+                        ap.getName().equals(string)).findFirst().orElse(null);
+            }
+        });
+
+        probaCb.valueProperty().addListener((obs, oldval, newval) -> {
+            if (newval != null) {
+                System.out.println("Selected Proba: " + newval.getName()
+                        + ". ID: " + newval.getId());
+                probaSelectName = new TextField();
+                probaSelectName.setText(newval.getId().toString());
+            }
+        });
+
+
+        probaCb.getSelectionModel().selectFirst();
+        grid.add(probaCb, 0, 2);
+
+
 
         Button executeGetStats = new Button("Vezi scorurile pentru proba");
         grid.add(executeGetStats, 0, 3);
@@ -128,26 +171,97 @@ public class ScoreView {
             selectedParticipant = value.getParticipant();
             selectedProba = value.getProba();
             probaSelectName.setText("" + value.getProba().getId());
+
+
         }
     }
 
     protected GridPane createScore() {
-        GridPane grid = Utils.initWindow();
+        GridPane grid = Utils.initWindow("");
 
         Label scoreID = new Label("Id:");
         grid.add(scoreID, 0, 1);
         idBox = new TextField();
         grid.add(idBox, 1, 1);
 
-        Label participantID = new Label("Id Participant:");
-        grid.add(participantID, 0, 2);
-        participantIDText = new TextField();
-        grid.add(participantIDText, 1, 2);
+//        Label participantID = new Label("Id Participant:");
+//        grid.add(participantID, 0, 2);
+//        participantIDText = new TextField();
+//        grid.add(participantIDText, 1, 2);
 
-        Label probaID = new Label("Id Proba:");
-        grid.add(probaID, 0, 3);
-        probaIdtext = new TextField();
-        grid.add(probaIdtext, 1, 3);
+//        Label probaID = new Label("Id Proba:");
+//        grid.add(probaID, 0, 3);
+//        probaIdtext = new TextField();
+//        grid.add(probaIdtext, 1, 3);
+
+        Label algor = new Label("Proba:");
+        grid.add(algor, 0, 3);
+
+
+        ObservableList<Proba> probeModel = controller.getProbeForCurrentUser();
+
+
+        probaCb = new ChoiceBox<>();
+        probaCb.setItems(probeModel);
+        probaCb.setConverter(new StringConverter<Proba>() {
+
+            @Override
+            public String toString(Proba object) {
+                return object.getName();
+            }
+
+            @Override
+            public Proba fromString(String string) {
+                return probaCb.getItems().stream().filter(ap ->
+                        ap.getName().equals(string)).findFirst().orElse(null);
+            }
+        });
+
+        probaCb.valueProperty().addListener((obs, oldval, newval) -> {
+            if (newval != null) {
+                System.out.println("Selected Proba: " + newval.getName()
+                        + ". ID: " + newval.getId());
+                probaIdtext = new TextField();
+                probaIdtext.setText(newval.getId().toString());
+            }
+        });
+
+
+        probaCb.getSelectionModel().selectFirst();
+        grid.add(probaCb, 1, 3);
+
+        Label participantLabel = new Label("Participant:");
+        grid.add(participantLabel, 0, 2);
+
+        participantCb = new ChoiceBox<>();
+        participantCb.setItems(controller.getParticipantModel());
+        participantCb.setConverter(new StringConverter<Participant>() {
+
+            @Override
+            public String toString(Participant object) {
+                return object.getName();
+            }
+
+            @Override
+            public Participant fromString(String string) {
+                return participantCb.getItems().stream().filter(ap ->
+                        ap.getName().equals(string)).findFirst().orElse(null);
+            }
+        });
+
+        participantCb.valueProperty().addListener((obs, oldval, newval) -> {
+            if (newval != null) {
+                System.out.println("Selected Participant: " + newval.getName()
+                        + ". ID: " + newval.getId());
+                participantIDText = new TextField();
+                participantIDText.setText(newval.getId().toString());
+            }
+        });
+
+
+        participantCb.getSelectionModel().selectFirst();
+        grid.add(participantCb, 1, 2);
+
 
         Label scoreVal = new Label("Scor:");
         grid.add(scoreVal, 0, 4);

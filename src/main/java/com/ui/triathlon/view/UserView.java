@@ -84,7 +84,7 @@ public class UserView {
     }
 
     protected GridPane createUser() {
-        GridPane grid = Utils.initWindow();
+        GridPane grid = Utils.initWindow("");
 
         Label userID = new Label("Id:");
         grid.add(userID, 0, 1);

@@ -10,14 +10,14 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 
 public class Utils {
-    public static GridPane initWindow() {
+    public static GridPane initWindow(String sceneTitleText) {
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.CENTER);
         grid.setHgap(10);
         grid.setVgap(10);
         grid.setPadding(new Insets(15, 15, 15, 15));
 
-        Text scenetitle = new Text("Login ");
+        Text scenetitle = new Text(sceneTitleText);
         scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 14));
         scenetitle.setFill(Color.BLUE);
         grid.add(scenetitle, 0, 0, 2, 1);

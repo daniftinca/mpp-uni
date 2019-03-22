@@ -13,7 +13,7 @@ import javafx.collections.ObservableList;
 
 import java.util.stream.StreamSupport;
 
-public class ScoreController implements Observer<ScoreEvent> {
+public class GeneralController implements Observer<ScoreEvent> {
 
 
     private ScorService service;
@@ -21,14 +21,7 @@ public class ScoreController implements Observer<ScoreEvent> {
     private ParticipantService participantService;
     private ObservableList<Score> scoreModel;
 
-    public ScoreController(ScorService scorService, ProbaService probaService, ParticipantService participantService) {
-        this.service = scorService;
-        this.probaService = probaService;
-        this.participantService = participantService;
-        service.addObserver(this);
-        scoreModel = FXCollections.observableArrayList();
-        populateListForProbe();
-    }
+    ObservableList<Proba> probeModel = FXCollections.observableArrayList();
 
     public void populateList() {
 
@@ -72,6 +65,8 @@ public class ScoreController implements Observer<ScoreEvent> {
 
     }
 
+    ObservableList<Participant> participantModel = FXCollections.observableArrayList();
+
 
     public void addScore(Long id,
                          Participant participant,
@@ -103,6 +98,52 @@ public class ScoreController implements Observer<ScoreEvent> {
 
         return scoreModel;
     }
+
+    public GeneralController(ScorService scorService, ProbaService probaService, ParticipantService participantService) {
+        this.service = scorService;
+        this.probaService = probaService;
+        this.participantService = participantService;
+        service.addObserver(this);
+        scoreModel = FXCollections.observableArrayList();
+        populateListForProbe();
+    }
+
+    public ObservableList<Proba> getProbeForCurrentUser() {
+        String username = UserSession.getSession().getUserName();
+        if (username == null) {
+            return null;
+        }
+        Iterable<Proba> probe = probaService.findAllForUsername(username);
+
+        ObservableList<Proba> userProbe = FXCollections.observableArrayList();
+
+        probe.forEach(x -> userProbe.add(x));
+        return userProbe;
+
+    }
+
+    public ObservableList<Proba> getProbeModel() {
+        populateProbe();
+        return this.probeModel;
+    }
+
+    public void populateProbe() {
+        Iterable<Proba> probe = probaService.findAll();
+        probeModel = FXCollections.observableArrayList();
+        probe.forEach(x -> probeModel.add(x));
+    }
+
+    public ObservableList<Participant> getParticipantModel() {
+        populateParticipanti();
+        return this.participantModel;
+    }
+
+    public void populateParticipanti() {
+        Iterable<Participant> participants = participantService.findAll();
+        participantModel = FXCollections.observableArrayList();
+        participants.forEach(x -> participantModel.add(x));
+    }
+
 
     @Override
     public void update(ScoreEvent scoreEvent) {
